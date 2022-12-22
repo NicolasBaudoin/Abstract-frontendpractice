@@ -1,3 +1,4 @@
+/* variables */
 :root{
     /* navigation bar */
     --clr-blue-input:#4C5FD5;
@@ -5,11 +6,16 @@
     /* Banner */
     --clr-bg-banner:#DADBF1;
 }
-
-
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active  {
     text-decoration: none;
+    color: inherit;
+    outline: 0;
+    cursor:pointer;
+}
 }
