@@ -12,6 +12,7 @@
     padding: 0;
     list-style: none;
 }
+
 .reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active  {
     text-decoration: none;
     color: inherit;
@@ -55,4 +56,50 @@ nav{
     padding: 15px 20px;
     border-radius: 10px;
   
+}
+/* BANNER */
+.banner{
+    background: var(--clr-bg-banner);
+    height: 388px;
+    box-shadow: inset black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.banner h1{
+    font-size: 76px;
+    font-weight: lighter;
+}
+
+.input-search-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+    width: 720px;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+.search-bar, .search-bar:focus, .search-bar::selection{
+    height: 100%;
+    width: 100%;
+    padding-left:10px ;
+    border: none;
+    background: white;
+    border-radius: 10px 0 0 10px;
+}
+
+#arrow-search{
+    background: white;
+    border: none;
+    height: 100%;
+    width: 20px;
+    border-radius: 0 10px 10px 0;
+    padding-right:50px ;
+    font-size: 30px;
+    cursor: pointer;
 }
