@@ -29,4 +29,14 @@ nav{
     justify-content: space-between;
     font-size: 20px;
 }
+.left-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.right-nav{
+    padding-right: 100px  ;
+    display: flex;
+    gap: 30px;
+}
 }
