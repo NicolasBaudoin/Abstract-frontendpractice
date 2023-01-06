@@ -149,3 +149,10 @@ nav{
     display: flex;
     flex-direction: column;
 } */
+ /* HELP BTN */
+
+ .help-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
